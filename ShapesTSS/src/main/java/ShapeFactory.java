@@ -67,6 +67,10 @@ public class ShapeFactory {
 
    }
 
+   public ShapeFactory(int shape) {
+
+   }
+
    private static Shape createStar(int arms, Point center, double rOuter, double rInner) {
       double angle = 3.141592653589793D / (double)arms;
       GeneralPath path = new GeneralPath();
