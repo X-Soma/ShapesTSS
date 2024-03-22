@@ -61,7 +61,7 @@ public class TitlesPanel extends JPanel implements ActionListener {
 
    /**
     *
-    * @param g the <code>Graphics</code> Object to point shape
+    * @param g the <code>Graphics</code> Object to point shape.
     * */
 
    public void paintComponent(Graphics g) {
