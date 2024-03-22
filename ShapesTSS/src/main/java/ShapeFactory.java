@@ -14,7 +14,7 @@ public class ShapeFactory {
    public int width = 25;
    public int height = 25;
 
-   public ShapeFactory(int shape_type) {
+   public ShapeFactory(Color color,int shape_type) {
       switch(shape_type / 10) {
       case 1:
          this.shape = createStar(3, new Point(0, 0), (double)this.width / 2.0D, (double)this.width / 2.0D);
