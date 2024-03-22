@@ -2,7 +2,6 @@ import java.awt.Component;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 /**
- * TODO javadoc to add
  * GUI project with spinning images of defined shapes.
  * @author X-Soma
  * @version 1.0.1
